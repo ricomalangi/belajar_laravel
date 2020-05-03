@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('/hello', function () {
     return 'hello guys';
 });
+Route::get('/coba', function () {
+    return 'hello guys';
+});
 
 Auth::routes();
 
