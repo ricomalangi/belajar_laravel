@@ -17,11 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hello', function () {
-    return 'hello guys';
-});
-Route::get('/coba', function () {
-    return 'hello guys';
+Route::get('admin', function(){
+    return view('admin.adminMaster');
 });
 
 Auth::routes();

@@ -1,3 +1,7 @@
 {
-    "intelephense.diagnostics.undefinedSymbols": false
+    "intelephense.diagnostics.undefinedSymbols": false,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "editor.fontWeight": "400"
 }
